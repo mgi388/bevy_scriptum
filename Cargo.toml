@@ -15,7 +15,7 @@ lua = ["mlua/luajit"]
 rhai = ["dep:rhai"]
 
 [dependencies]
-bevy = { default-features = false, version = "0.14", features = [
+bevy = { default-features = false, version = "0.15", features = [
     "bevy_asset",
 ] }
 serde = "1.0.162"
